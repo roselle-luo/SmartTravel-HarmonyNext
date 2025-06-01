@@ -9,6 +9,18 @@
       "tablet",
       "2in1"
     ],
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "usedScene": {
+          "abilities": [
+            "EntryAbility" // 可选：指定哪些Ability会使用此权限
+          ],
+          "when": "inuse" // 可选：权限使用的场景，inuse表示使用时
+        }
+      }
+      // ... 如果有其他权限，继续添加 ...
+    ],
     "deliveryWithInstall": true,
     "installationFree": false,
     "pages": "$profile:main_pages",

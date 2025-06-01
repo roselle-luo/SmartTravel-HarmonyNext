@@ -3,9 +3,9 @@
 export struct HomePage {
   @State swiperIndex: number = 0;
   private recommendedImages: string[] = [
-    'https://placehold.co/800x200/60A5FA/FFFFFF?text=美丽山谷', // 示例图片URL
-    'https://placehold.co/800x200/34D399/FFFFFF?text=城市夜景', // 示例图片URL
-    'https://placehold.co/800x200/FCD34D/FFFFFF?text=海滨度假'  // 示例图片URL
+    'https://p3.img.cctvpic.com/photoworkspace/contentimg/2019/05/05/2019050515335593405.jpg', // 示例图片URL
+    'https://askthescientists.com/wp-content/uploads/2018/07/Outdoors-AdobeStock_203673414-835x418.jpg', // 示例图片URL
+    'https://cxfile.advences.com/CFAVOYAGES/photo/shutterstock_638541712.jpg'  // 示例图片URL
   ];
 
   build() {
@@ -40,7 +40,7 @@ export struct HomePage {
             Image(item)
               .width('100%')
               .height(200)
-              .borderRadius(10)
+              .borderRadius(16)
               .objectFit(ImageFit.Cover) // 图片裁剪模式
           })
         }
