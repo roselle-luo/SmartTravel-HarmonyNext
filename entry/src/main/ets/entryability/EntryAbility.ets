@@ -1,11 +1,36 @@
 import { AbilityConstant, ConfigurationConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
-import { window } from '@kit.ArkUI';
+import { display, window } from '@kit.ArkUI';
 
 const DOMAIN = 0x0000;
 
 export default class EntryAbility extends UIAbility {
   onCreate(want: Want, launchParam: AbilityConstant.LaunchParam): void {
+    display.getDefaultDisplay((err, disp) => {
+      if (err) {
+        console.error('Failed to get default display. Cause: ' + JSON.stringify(err));
+        return;
+      }
+      console.info('Succeeded to get default display. display info: ' + JSON.stringify(disp));
+
+      // 获取窗口信息并存储到AppStorage
+      window.getLastWindow(this.context, (err, data) => {
+        if (err) {
+          console.error('Failed to get last window. Cause: ' + JSON.stringify(err));
+          return;
+        }
+        console.info('Succeeded to get last window. Data: ' + JSON.stringify(data));
+
+        const windowProperties = data.getWindowProperties();
+        AppStorage.set<number>('width', windowProperties.windowRect.width);
+        AppStorage.set<number>('height', windowProperties.windowRect.height);
+        AppStorage.set<number>('density', disp.densityPixels); // 屏幕密度
+        AppStorage.set<number>('screenHeight', disp.height); // 屏幕物理高度
+        AppStorage.set<number>('screenWidth', disp.width);   // 屏幕物理宽度
+        console.info('AppStorage: width = ' + AppStorage.get('width'));
+        console.info('AppStorage: height = ' + AppStorage.get('height'));
+      });
+    });
     this.context.getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_NOT_SET);
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onCreate');
   }
