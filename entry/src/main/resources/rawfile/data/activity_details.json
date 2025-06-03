@@ -1,0 +1,55 @@
+{
+  "activityId": 1,
+  "title": "端午民俗嘉年华",
+  "carouselImages": [
+    "https://picsum.photos/id/1018/800/400",
+    "https://picsum.photos/id/1015/800/400",
+    "https://picsum.photos/id/1016/800/400"
+  ],
+  "sections": [
+    {
+      "type": "text",
+      "title": "🏞️ 景区介绍",
+      "content": "岳阳楼景区位于湖南省岳阳市，是江南三大名楼之一，也是国家AAAAA级旅游景区。它依长江而建，临洞庭而立，以其深厚的历史文化底蕴和壮丽的自然风光闻名遐迩。\n\n登上岳阳楼，可远眺八百里洞庭湖烟波浩渺，感受范仲淹《岳阳楼记》中“先天下之忧而忧，后天下之乐而乐”的豪情壮志。景区内不仅有古老的岳阳楼，还包括了三醉亭、仙梅亭、小乔墓等诸多历史遗迹，是集文化、历史、自然风光于一体的绝佳旅游目的地。"
+    },
+    {
+      "type": "rich_text_list",
+      "title": "🎉 活动详情",
+      "items": [
+        {"label": "活动名称", "value": "端午民俗嘉年华"},
+        {"label": "活动时间", "value": "2025年6月10日 - 2025年6月12日"},
+        {"label": "活动地点", "value": "岳阳楼景区主广场及周边水域"},
+        {"label": "活动内容", "value": [
+          "**传统龙舟赛：** 邀请各地龙舟队齐聚洞庭湖，展开激烈角逐，感受传统节日的激情与活力。",
+          "**包粽子大赛：** 游客可亲身体验包粽子乐趣，学习传统手艺，品尝自己亲手制作的美味粽子。",
+          "**民俗表演：** 精彩的湖湘民俗歌舞、皮影戏、花鼓戏等轮番上演，展现地方文化魅力。",
+          "**非遗市集：** 汇集当地非物质文化遗产手工艺品，如湘绣、纸扎、木雕等，可观赏、购买。",
+          "**亲子互动区：** 设立儿童游乐设施和亲子游戏，让家庭共同享受节日欢乐。",
+          "**夜间灯光秀：** 端午期间，岳阳楼及周边区域将上演流光溢彩的灯光秀，点亮洞庭之夜。",
+          "**更多惊喜：** 现场还有神秘嘉宾互动和抽奖环节，不容错过！"
+        ]}
+      ]
+    },
+    {
+      "type": "image_gallery",
+      "title": "📸 精彩瞬间",
+      "images": [
+        "https://picsum.photos/id/1020/400/300",
+        "https://picsum.photos/id/1021/400/300",
+        "https://picsum.photos/id/1022/400/300",
+        "https://picsum.photos/id/1023/400/300",
+        "https://picsum.photos/id/1024/400/300"
+      ]
+    },
+    {
+      "type": "contact_info",
+      "title": "📞 联系方式",
+      "phone": "400-123-4567",
+      "email": "info@example.com",
+      "website": "https://www.example.com"
+    }
+  ],
+  "enrollmentAvailable": true,
+  "enrollmentText": "立即报名",
+  "enrollmentLink": "https://example.com/enroll/ACT001"
+}

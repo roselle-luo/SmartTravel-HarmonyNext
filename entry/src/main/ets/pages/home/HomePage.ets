@@ -56,9 +56,6 @@ export struct HomePage {
   updateWidth() {
     const defaultDisplay = display.getDefaultDisplaySync();
     this.deviceWidth = defaultDisplay.width;
-    Prompt.showToast({
-      message: this.deviceWidth.toString()
-    })
     if (this.deviceWidth >= 4200) {
       this.maxCount = 3;
     } else if (this.deviceWidth >= 2400) {

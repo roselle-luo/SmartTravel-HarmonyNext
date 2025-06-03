@@ -5,96 +5,89 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>精彩活动</title>
   <style>
-    /* 基础样式和字体 */
+    /* ... CSS 样式保持不变 ... */
     body {
       margin: 0;
-      /* 使用 HarmonyOS 字体，兼容 fallback */
       font-family: "HarmonyOS Sans SC", "PingFang SC", "Helvetica Neue", "Microsoft YaHei", sans-serif;
-      background: linear-gradient(to bottom right, #fdfbfb, #ebedee); /* 柔和的背景渐变 */
+      background: linear-gradient(to bottom right, #fdfbfb, #ebedee);
       color: #333;
-      -webkit-font-smoothing: antialiased; /* 字体抗锯齿 */
+      -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       display: flex;
       flex-direction: column;
-      min-height: 100vh; /* 确保内容撑开整个视口高度 */
-      overflow-x: hidden; /* **重要：禁止 body 的横向滚动** */
+      min-height: 100vh;
+      overflow-x: hidden;
     }
 
-    /* 头部 */
     .header {
-      padding: calc(16px + env(safe-area-inset-top)) 16px 16px; /* 适配刘海屏和安全区 */
+      padding: calc(16px + env(safe-area-inset-top)) 16px 16px;
       font-size: 24px;
       font-weight: bold;
       color: #333;
       background: #fff;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.06); /* 更柔和的阴影 */
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
       text-align: center;
-      position: sticky; /* 吸顶效果 */
+      position: sticky;
       top: 0;
-      z-index: 100; /* 确保在其他内容之上 */
+      z-index: 100;
     }
 
-    /* Tabs 导航 */
     .tabs {
       display: flex;
-      overflow-x: auto; /* **允许横向滚动（仅限 tab 区域）** */
+      overflow-x: auto;
       white-space: nowrap;
       padding: 12px 16px;
       background: #fff;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.04); /* 轻微阴影 */
-      -webkit-overflow-scrolling: touch; /* iOS 平滑滚动 */
-      scrollbar-width: none; /* 隐藏 Firefox 滚动条 */
-      -ms-overflow-style: none;  /* 隐藏 IE/Edge 滚动条 */
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
     }
 
     .tabs::-webkit-scrollbar {
-      display: none; /* 隐藏 Chrome/Safari 滚动条 */
+      display: none;
     }
 
     .tab {
-      flex: none; /* 防止 flex item 挤压 */
+      flex: none;
       margin-right: 12px;
-      padding: 8px 18px; /* 增加点击区域 */
-      border-radius: 24px; /* 更大的圆角 */
-      background: #f0f2f5; /* 浅灰色背景 */
+      padding: 8px 18px;
+      border-radius: 24px;
+      background: #f0f2f5;
       color: #555;
       cursor: pointer;
-      transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); /* 平滑动画 */
+      transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
       font-size: 15px;
       font-weight: 500;
-      display: inline-flex; /* 确保内容居中 */
+      display: inline-flex;
       align-items: center;
       justify-content: center;
     }
 
     .tab.active {
-      background: linear-gradient(to right, #4CAF50, #8BC34A); /* 更清新的绿色渐变 */
+      background: linear-gradient(to right, #4CAF50, #8BC34A);
       color: white;
       font-weight: 600;
-      box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3); /* 匹配渐变色的阴影 */
-      transform: translateY(-2px); /* 激活时轻微上浮 */
+      box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+      transform: translateY(-2px);
     }
 
-    /* 内容区域 */
     .content {
-      flex-grow: 1; /* 撑开剩余空间 */
+      flex-grow: 1;
       padding: 16px;
-      padding-bottom: calc(16px + env(safe-area-inset-bottom)); /* 适配底部安全区 */
-      display: grid; /* 使用 CSS Grid 布局 */
-      gap: 16px; /* 卡片间距 */
-      /* **核心：根据可用空间自动调整列数** */
+      padding-bottom: calc(16px + env(safe-area-inset-bottom));
+      display: grid;
+      gap: 16px;
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      max-width: 100%; /* 确保在小屏幕上不会溢出 */
-      box-sizing: border-box; /* 确保 padding 不会导致溢出 */
-      /* max-width for larger screens, adjusted in media queries */
+      max-width: 100%;
+      box-sizing: border-box;
     }
 
-    /* 卡片样式 */
     .card {
       background: white;
-      border-radius: 16px; /* 更大的圆角 */
-      box-shadow: 0 6px 18px rgba(0,0,0,0.08); /* 更明显的阴影，有深度感 */
-      padding: 20px; /* 增加内边距 */
+      border-radius: 16px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      padding: 20px;
       transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.3s ease;
       display: flex;
       flex-direction: column;
@@ -102,12 +95,12 @@
     }
 
     .card:hover {
-      transform: translateY(-6px); /* 鼠标悬停/点击时上浮更多 */
-      box-shadow: 0 10px 25px rgba(0,0,0,0.15); /* 悬停时阴影更深 */
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
     }
 
     .card-title {
-      font-size: 19px; /* 稍大字体 */
+      font-size: 19px;
       font-weight: 600;
       margin-bottom: 10px;
       color: #222;
@@ -119,7 +112,7 @@
       color: #777;
       display: flex;
       align-items: center;
-      flex-wrap: wrap; /* 确保信息在一行显示不下时换行 */
+      flex-wrap: wrap;
     }
 
     .card-info span {
@@ -131,11 +124,10 @@
       margin-right: 0;
     }
 
-    /* 针对平板和折叠屏的媒体查询 */
     @media (min-width: 600px) {
       .tabs {
         justify-content: center;
-        padding: 16px; /* 宽屏下增加 padding */
+        padding: 16px;
       }
 
       .tab {
@@ -145,10 +137,9 @@
       }
 
       .content {
-        max-width: 960px; /* 限制内容最大宽度，避免平板上过宽 */
-        margin: 0 auto; /* 居中显示 */
-        padding: 24px; /* 增加内边距 */
-        /* minmax(300px, 1fr) 确保每列至少 300px 宽，自动调整列数 */
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 24px;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       }
 
@@ -164,11 +155,10 @@
       }
     }
 
-    /* 针对超宽屏幕（如折叠屏展开态或桌面） */
     @media (min-width: 900px) {
       .content {
-        max-width: 1200px; /* 更宽的布局 */
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* 更多列，每列最小 320px */
+        max-width: 1200px;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
       }
     }
   </style>
@@ -184,60 +174,84 @@
   <div class="tab" data-key="more">✨ 更多</div>
 </div>
 
+<div>
+  <input type="button" value="SendToEts" onclick="PostMsgToEts(msgFromJS.value);"/><br/>
+  <input id="msgFromJS" type="text" value="send"/><br/>
+</div>
+
+<p class="output">display received message send from ets</p>
+
 <div class="content" id="content">
+  <p style="text-align: center; color: #888; padding: 20px;">正在加载活动数据...</p>
 </div>
 
 <script>
-  const data = {
-    hot: [
-      { title: "端午民俗嘉年华", time: "2025-06-10", location: "岳阳楼景区" },
-      { title: "夜游灯会大赏", time: "2025-06-15", location: "凤凰古城" },
-      { title: "湖畔音乐露营", time: "2025-06-18", location: "洞庭湖生态区" },
-      { title: "城市马拉松", time: "2025-06-22", location: "城市绿道公园" },
-      { title: "夏日水上乐园", time: "2025-06-28", location: "欢乐谷" },
-      { title: "非遗文化节", time: "2025-07-05", location: "古城文化街" }
-    ],
-    new: [
-      { title: "新开园：梦幻花海", time: "2025-06-05", location: "南山公园" },
-      { title: "VR 探险体验馆", time: "2025-06-08", location: "智慧科技园" },
-      { title: "科技艺术展", time: "2025-06-07", location: "未来科技馆" },
-      { title: "创意市集", time: "2025-06-11", location: "青年文化广场" }
-    ],
-    explore: [
-      { title: "秘境徒步挑战", time: "2025-06-20", location: "张家界国家森林公园" },
-      { title: "古镇文化体验", time: "2025-06-25", location: "西塘古镇" },
-      { title: "自然野趣观察", time: "2025-06-19", location: "湿地公园" },
-      { title: "星空摄影之夜", time: "2025-06-23", location: "天文台" }
-    ],
-    more: [
-      { title: "摄影比赛", time: "2025-06-30", location: "望城老街" },
-      { title: "汉服巡游", time: "2025-06-12", location: "长安古镇" },
-      { title: "美食节", time: "2025-07-01", location: "城市广场" },
-      { title: "宠物嘉年华", time: "2025-07-08", location: "宠物公园" }
-    ]
-  };
-
+  let h5Port;
+  var output = document.querySelector('.output');
+  let activitiesData = null; // 用于存储从鸿蒙端传递过来的数据
   const contentDiv = document.getElementById('content');
-  const tabsContainer = document.getElementById('tabs-container'); // 获取 tab 父容器
+  const tabsContainer = document.getElementById('tabs-container');
+
+  // --- 接收鸿蒙端数据的方法 ---
+  window.addEventListener('message', function (event) {
+    if (event.data === '__init_port__') {
+      if (event.ports[0] != null) {
+        h5Port = event.ports[0]; // 1. 保存从ets侧发送过来的端口
+        h5Port.onmessage = function (event) {
+          // 2. 接收ets侧发送过来的消息.
+          var msg = 'Got message from ets:';
+          let result = event.data;
+          if (typeof(result) == "string") {
+            console.log("received string message from html5, string is:" + result);
+            msg = result;
+          } else if (typeof(result) == "object") {
+            if (result instanceof ArrayBuffer) {
+              console.log("received arraybuffer from html5, length is:" + result.byteLength);
+              msg = msg + "length is " + result.byteLength;
+            } else {
+              console.log("not support");
+            }
+          } else {
+            console.log("not support");
+          }
+          console.error(msg);
+          activitiesData = msg;
+          output.innerHTML = msg;
+          contentDiv.innerHTML = msg;
+        }
+      }
+    }
+  })
+
+  function PostMsgToEts(data) {
+    if (h5Port) {
+      h5Port.postMessage(data);
+    } else {
+      console.error("h5Port is null, Please initialize first");
+    }
+  }
 
   // 使用事件委托处理 tab 点击
   tabsContainer.addEventListener('click', function(event) {
-    const clickedTab = event.target.closest('.tab'); // 找到被点击的 tab 元素
+    const clickedTab = event.target.closest('.tab');
     if (clickedTab) {
-      // 移除所有 tab 的 active 类
       document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
-      // 为被点击的 tab 添加 active 类
       clickedTab.classList.add('active');
 
-      const key = clickedTab.dataset.key; // 获取 data-key 属性
+      const key = clickedTab.dataset.key;
       renderContent(key);
     }
   });
 
   function renderContent(key) {
-    contentDiv.innerHTML = ''; // 清空当前内容
-    const items = data[key];
-    if (items && items.length > 0) {
+    contentDiv.innerHTML = '';
+    if (!activitiesData || !activitiesData[key]) {
+        contentDiv.innerHTML = '<p style="text-align: center; color: #888; padding: 20px;">暂无该分类活动数据。</p>';
+        return;
+    }
+
+    const items = activitiesData[key];
+    if (items.length > 0) {
       items.forEach(item => {
         const card = document.createElement('div');
         card.className = 'card';
@@ -248,6 +262,16 @@
             <span>📍 ${item.location}</span>
           </div>
         `;
+        // 为卡片添加点击事件，调用鸿蒙端的跳转方法
+        card.addEventListener('click', () => {
+          if (jsBridge && item.detailId) {
+            console.log('WebView JS：调用鸿蒙端跳转详情，ID:', item.detailId);
+            jsBridge.callJsProxy('navigateToDetail', { detailId: item.detailId });
+          } else {
+            console.warn('JSBridge 未加载或 detailId 不存在，无法跳转。', item);
+            alert(`点击活动: ${item.title}`); // 备用方案
+          }
+        });
         contentDiv.appendChild(card);
       });
     } else {
@@ -255,8 +279,6 @@
     }
   }
 
-  // 初始化默认内容
-  renderContent('hot');
 </script>
 
 </body>

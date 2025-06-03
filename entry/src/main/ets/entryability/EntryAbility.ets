@@ -1,6 +1,7 @@
 import { AbilityConstant, ConfigurationConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
 import { display, window } from '@kit.ArkUI';
+import webview from '@ohos.web.webview';
 
 const DOMAIN = 0x0000;
 
@@ -31,6 +32,7 @@ export default class EntryAbility extends UIAbility {
         console.info('AppStorage: height = ' + AppStorage.get('height'));
       });
     });
+    webview.WebviewController.initializeWebEngine()
     this.context.getApplicationContext().setColorMode(ConfigurationConstant.ColorMode.COLOR_MODE_NOT_SET);
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onCreate');
   }
