@@ -1,28 +1,34 @@
 {
   "hot": [
-    { "title": "端午民俗嘉年华", "time": "2025-06-10", "location": "岳阳楼景区" },
-    { "title": "夜游灯会大赏", "time": "2025-06-15", "location": "凤凰古城" },
-    { "title": "湖畔音乐露营", "time": "2025-06-18", "location": "洞庭湖生态区" },
-    { "title": "城市马拉松", "time": "2025-06-22", "location": "城市绿道公园" },
-    { "title": "夏日水上乐园", "time": "2025-06-28", "location": "欢乐谷" },
-    { "title": "非遗文化节", "time": "2025-07-05", "location": "古城文化街" }
+    { "activityId": 1,"title": "端午民俗嘉年华", "time": "2025-06-10", "location": "岳阳楼景区" },
+    { "activityId": 2,"title": "夜游灯会大赏", "time": "2025-06-15", "location": "凤凰古城" },
+    { "activityId": 3,"title": "湖畔音乐露营", "time": "2025-06-18", "location": "洞庭湖生态区" },
+    { "activityId": 4,"title": "城市马拉松", "time": "2025-06-22", "location": "城市绿道公园" },
+    { "activityId": 5,"title": "夏日水上乐园", "time": "2025-06-28", "location": "欢乐谷" },
+    { "activityId": 6,"title": "非遗文化节", "time": "2025-07-05", "location": "古城文化街" }
   ],
   "new": [
-    { "title": "新开园：梦幻花海", "time": "2025-06-05", "location": "南山公园" },
-    { "title": "VR 探险体验馆", "time": "2025-06-08", "location": "智慧科技园" },
-    { "title": "科技艺术展", "time": "2025-06-07", "location": "未来科技馆" },
-    { "title": "创意市集", "time": "2025-06-11", "location": "青年文化广场" }
+    { "activityId": 7,"title": "新开园：梦幻花海", "time": "2025-06-05", "location": "南山公园" },
+    { "activityId": 8,"title": "VR 探险体验馆", "time": "2025-06-08", "location": "智慧科技园" },
+    { "activityId": 9,"title": "科技艺术展", "time": "2025-06-07", "location": "未来科技馆" },
+    { "activityId": 10,"title": "创意市集", "time": "2025-06-11", "location": "青年文化广场" },
+    { "activityId": 9,"title": "科技艺术展", "time": "2025-06-07", "location": "未来科技馆" },
+    { "activityId": 10,"title": "创意市集", "time": "2025-06-11", "location": "青年文化广场" }
   ],
   "explore": [
-    { "title": "秘境徒步挑战", "time": "2025-06-20", "location": "张家界国家森林公园" },
-    { "title": "古镇文化体验", "time": "2025-06-25", "location": "西塘古镇" },
-    { "title": "自然野趣观察", "time": "2025-06-19", "location": "湿地公园" },
-    { "title": "星空摄影之夜", "time": "2025-06-23", "location": "天文台" }
+    { "activityId": 11,"title": "秘境徒步挑战", "time": "2025-06-20", "location": "张家界国家森林公园" },
+    { "activityId": 12,"title": "古镇文化体验", "time": "2025-06-25", "location": "西塘古镇" },
+    { "activityId": 13,"title": "自然野趣观察", "time": "2025-06-19", "location": "湿地公园" },
+    { "activityId": 14,"title": "星空摄影之夜", "time": "2025-06-23", "location": "天文台" },
+    { "activityId": 13,"title": "自然野趣观察", "time": "2025-06-19", "location": "湿地公园" },
+    { "activityId": 14,"title": "星空摄影之夜", "time": "2025-06-23", "location": "天文台" }
   ],
   "more": [
-    { "title": "摄影比赛", "time": "2025-06-30", "location": "望城老街" },
-    { "title": "汉服巡游", "time": "2025-06-12", "location": "长安古镇" },
-    { "title": "美食节", "time": "2025-07-01", "location": "城市广场" },
-    { "title": "宠物嘉年华", "time": "2025-07-08", "location": "宠物公园" }
+    { "activityId": 15,"title": "摄影比赛", "time": "2025-06-30", "location": "望城老街" },
+    { "activityId": 16,"title": "汉服巡游", "time": "2025-06-12", "location": "长安古镇" },
+    { "activityId": 17,"title": "美食节", "time": "2025-07-01", "location": "城市广场" },
+    { "activityId": 18,"title": "宠物嘉年华", "time": "2025-07-08", "location": "宠物公园" },
+    { "activityId": 17,"title": "美食节", "time": "2025-07-01", "location": "城市广场" },
+    { "activityId": 18,"title": "宠物嘉年华", "time": "2025-07-08", "location": "宠物公园" }
   ]
 }

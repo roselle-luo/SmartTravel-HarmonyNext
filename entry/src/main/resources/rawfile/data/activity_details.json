@@ -1,55 +1,1023 @@
-{
-  "activityId": 1,
-  "title": "端午民俗嘉年华",
-  "carouselImages": [
-    "https://picsum.photos/id/1018/800/400",
-    "https://picsum.photos/id/1015/800/400",
-    "https://picsum.photos/id/1016/800/400"
-  ],
-  "sections": [
-    {
-      "type": "text",
-      "title": "🏞️ 景区介绍",
-      "content": "岳阳楼景区位于湖南省岳阳市，是江南三大名楼之一，也是国家AAAAA级旅游景区。它依长江而建，临洞庭而立，以其深厚的历史文化底蕴和壮丽的自然风光闻名遐迩。\n\n登上岳阳楼，可远眺八百里洞庭湖烟波浩渺，感受范仲淹《岳阳楼记》中“先天下之忧而忧，后天下之乐而乐”的豪情壮志。景区内不仅有古老的岳阳楼，还包括了三醉亭、仙梅亭、小乔墓等诸多历史遗迹，是集文化、历史、自然风光于一体的绝佳旅游目的地。"
-    },
-    {
-      "type": "rich_text_list",
-      "title": "🎉 活动详情",
-      "items": [
-        {"label": "活动名称", "value": "端午民俗嘉年华"},
-        {"label": "活动时间", "value": "2025年6月10日 - 2025年6月12日"},
-        {"label": "活动地点", "value": "岳阳楼景区主广场及周边水域"},
-        {"label": "活动内容", "value": [
-          "**传统龙舟赛：** 邀请各地龙舟队齐聚洞庭湖，展开激烈角逐，感受传统节日的激情与活力。",
-          "**包粽子大赛：** 游客可亲身体验包粽子乐趣，学习传统手艺，品尝自己亲手制作的美味粽子。",
-          "**民俗表演：** 精彩的湖湘民俗歌舞、皮影戏、花鼓戏等轮番上演，展现地方文化魅力。",
-          "**非遗市集：** 汇集当地非物质文化遗产手工艺品，如湘绣、纸扎、木雕等，可观赏、购买。",
-          "**亲子互动区：** 设立儿童游乐设施和亲子游戏，让家庭共同享受节日欢乐。",
-          "**夜间灯光秀：** 端午期间，岳阳楼及周边区域将上演流光溢彩的灯光秀，点亮洞庭之夜。",
-          "**更多惊喜：** 现场还有神秘嘉宾互动和抽奖环节，不容错过！"
-        ]}
-      ]
-    },
-    {
-      "type": "image_gallery",
-      "title": "📸 精彩瞬间",
-      "images": [
-        "https://picsum.photos/id/1020/400/300",
-        "https://picsum.photos/id/1021/400/300",
-        "https://picsum.photos/id/1022/400/300",
-        "https://picsum.photos/id/1023/400/300",
-        "https://picsum.photos/id/1024/400/300"
-      ]
-    },
-    {
-      "type": "contact_info",
-      "title": "📞 联系方式",
-      "phone": "400-123-4567",
-      "email": "info@example.com",
-      "website": "https://www.example.com"
-    }
-  ],
-  "enrollmentAvailable": true,
-  "enrollmentText": "立即报名",
-  "enrollmentLink": "https://example.com/enroll/ACT001"
-}
+[
+  {
+    "activityId": 1,
+    "title": "端午民俗嘉年华",
+    "carouselImages": [
+      "https://picsum.photos/id/1018/800/400",
+      "https://picsum.photos/id/1015/800/400",
+      "https://picsum.photos/id/1016/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🏞️ 景区介绍",
+        "content": "岳阳楼景区位于湖南省岳阳市，是江南三大名楼之一，也是国家AAAAA级旅游景区。它依长江而建，临洞庭而立，以其深厚的历史文化底蕴和壮丽的自然风光闻名遐迩。\n\n登上岳阳楼，可远眺八百里洞庭湖烟波浩渺，感受范仲淹《岳阳楼记》中“先天下之忧而忧，后天下之乐而乐”的豪情壮志。景区内不仅有古老的岳阳楼，还包括了三醉亭、仙梅亭、小乔墓等诸多历史遗迹，是集文化、历史、自然风光于一体的绝佳旅游目的地。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🎉 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "端午民俗嘉年华" },
+          { "label": "活动时间", "value": "2025年6月10日 - 2025年6月12日" },
+          { "label": "活动地点", "value": "岳阳楼景区主广场及周边水域" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**传统龙舟赛：** 邀请各地龙舟队齐聚洞庭湖，展开激烈角逐，感受传统节日的激情与活力。",
+              "**包粽子大赛：** 游客可亲身体验包粽子乐趣，学习传统手艺，品尝自己亲手制作的美味粽子。",
+              "**民俗表演：** 精彩的湖湘民俗歌舞、皮影戏、花鼓戏等轮番上演，展现地方文化魅力。",
+              "**非遗市集：** 汇集当地非物质文化遗产手工艺品，如湘绣、纸扎、木雕等，可观赏、购买。",
+              "**亲子互动区：** 设立儿童游乐设施和亲子游戏，让家庭共同享受节日欢乐。",
+              "**夜间灯光秀：** 端午期间，岳阳楼及周边区域将上演流光溢彩的灯光秀，点亮洞庭之夜。",
+              "**更多惊喜：** 现场还有神秘嘉宾互动和抽奖环节，不容错过！"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1020/400/300",
+          "https://picsum.photos/id/1021/400/300",
+          "https://picsum.photos/id/1022/400/300",
+          "https://picsum.photos/id/1023/400/300",
+          "https://picsum.photos/id/1024/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-123-4567",
+        "email": "info@example.com",
+        "website": "https://www.example.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即报名",
+    "enrollmentLink": "https://example.com/enroll/ACT001"
+  },
+  {
+    "activityId": 2,
+    "title": "夜游灯会大赏",
+    "carouselImages": [
+      "https://picsum.photos/id/1030/800/400",
+      "https://picsum.photos/id/1031/800/400",
+      "https://picsum.photos/id/1032/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🏮 景区介绍",
+        "content": "凤凰古城，位于湖南省湘西土家族苗族自治州西南部，是一座历史文化名城，素有“中国最美的小城”之誉。古城内沱江蜿蜒，吊脚楼林立，石板小巷幽深，处处充满了独特的湘西风情。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "✨ 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "夜游灯会大赏" },
+          { "label": "活动时间", "value": "2025年6月15日 - 2025年6月20日 每日19:00-22:00" },
+          { "label": "活动地点", "value": "凤凰古城沱江沿岸及主要街道" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**璀璨灯光秀：** 数万盏花灯点亮古城夜空，营造如梦如幻的视觉盛宴。",
+              "**水上花灯巡游：** 沱江之上，各式花灯船只缓缓巡游，独具水乡韵味。",
+              "**民俗表演：** 古城内上演苗族歌舞、篝火晚会等精彩民俗表演。",
+              "**特色小吃街：** 品尝凤凰本地特色美食，感受舌尖上的古城。",
+              "**摄影打卡点：** 设立多个创意灯光造型，是拍照留念的绝佳选择。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1033/400/300",
+          "https://picsum.photos/id/1034/400/300",
+          "https://picsum.photos/id/1035/400/300",
+          "https://picsum.photos/id/1036/400/300",
+          "https://picsum.photos/id/1037/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-987-6543",
+        "email": "phoenix@example.com",
+        "website": "https://www.phoenixgc.com"
+      }
+    ],
+    "enrollmentAvailable": false,
+    "enrollmentText": "无需报名",
+    "enrollmentLink": ""
+  },
+  {
+    "activityId": 3,
+    "title": "湖畔音乐露营",
+    "carouselImages": [
+      "https://picsum.photos/id/1040/800/400",
+      "https://picsum.photos/id/1041/800/400",
+      "https://picsum.photos/id/1042/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🏕️ 景区介绍",
+        "content": "洞庭湖生态区，是长江中游重要的湿地生态系统，水域辽阔，风光秀丽。这里水鸟翔集，植被丰茂，是亲近自然、休闲度假的理想之地。湖畔的草地与沙滩，为户外活动提供了绝佳场所。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🎵 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "湖畔音乐露营" },
+          { "label": "活动时间", "value": "2025年6月18日 - 2025年6月20日" },
+          { "label": "活动地点", "value": "洞庭湖生态区指定露营地" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**星空音乐会：** 邀请知名乐队和歌手在湖畔献唱，在星空下享受音乐的魅力。",
+              "**户外露营体验：** 提供专业露营装备租赁和指导，体验野外住宿的乐趣。",
+              "**篝火晚会：** 围坐篝火旁，唱歌跳舞，分享故事，增进情谊。",
+              "**户外烧烤：** 自助烧烤，品尝美食，感受户外野餐的乐趣。",
+              "**湖畔观星：** 专业老师指导，认识星空，探索宇宙奥秘。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1043/400/300",
+          "https://picsum.photos/id/1044/400/300",
+          "https://picsum.photos/id/1045/400/300",
+          "https://picsum.photos/id/1046/400/300",
+          "https://picsum.photos/id/1047/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-234-5678",
+        "email": "camping@example.com",
+        "website": "https://www.dongtingcamp.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即报名",
+    "enrollmentLink": "https://example.com/enroll/ACT003"
+  },
+  {
+    "activityId": 4,
+    "title": "城市马拉松",
+    "carouselImages": [
+      "https://picsum.photos/id/1050/800/400",
+      "https://picsum.photos/id/1051/800/400",
+      "https://picsum.photos/id/1052/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🏃 赛道介绍",
+        "content": "城市绿道公园是城市中一条蜿蜒的生态长廊，全长约42公里，沿途风景优美，空气清新。赛道地势平坦，设施完善，是进行马拉松比赛的理想场地。跑者可以在比赛中领略城市风光，感受运动的快乐。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🏅 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "城市马拉松" },
+          { "label": "活动时间", "value": "2025年6月22日 07:00开跑" },
+          { "label": "活动地点", "value": "城市绿道公园全程" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**全程马拉松 (42.195公里)：** 专业跑者挑战自我，刷新PB。",
+              "**半程马拉松 (21.0975公里)：** 跑步爱好者的最佳选择。",
+              "**健康跑 (5公里)：** 适合所有年龄段，全家总动员，享受跑步乐趣。",
+              "**赛道补给：** 沿途设置多个补给站，提供水、能量饮料和水果。",
+              "**医疗保障：** 专业医疗团队全程待命，保障选手安全。",
+              "**完赛奖牌与证书：** 所有完赛选手均可获得精美奖牌和完赛证书。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1053/400/300",
+          "https://picsum.photos/id/1054/400/300",
+          "https://picsum.photos/id/1055/400/300",
+          "https://picsum.photos/id/1056/400/300",
+          "https://picsum.photos/id/1057/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-345-6789",
+        "email": "marathon@example.com",
+        "website": "https://www.citymarathon.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即报名",
+    "enrollmentLink": "https://example.com/enroll/ACT004"
+  },
+  {
+    "activityId": 5,
+    "title": "夏日水上乐园",
+    "carouselImages": [
+      "https://picsum.photos/id/1060/800/400",
+      "https://picsum.photos/id/1061/800/400",
+      "https://picsum.photos/id/1062/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🌊 景区介绍",
+        "content": "欢乐谷水上乐园是城市中最大的水上游乐天堂，拥有多种刺激的水滑道、清凉的造浪池和专为儿童设计的亲子戏水区。这里是夏日避暑、家庭娱乐的绝佳去处，让您在水中尽情释放活力，享受清凉与刺激。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "💦 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "夏日水上乐园" },
+          { "label": "活动时间", "value": "2025年6月28日 - 2025年8月31日 每日09:30-22:00" },
+          { "label": "活动地点", "value": "欢乐谷水上乐园" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**超级大喇叭：** 体验高速滑行与巨型漩涡带来的刺激感。",
+              "**造浪池：** 感受海浪般的波涛，尽情冲浪戏水。",
+              "**漂流河：** 乘坐浮圈，在蜿蜒的河道上放松漂流。",
+              "**儿童水寨：** 专为小朋友设计的戏水区，安全又有趣。",
+              "**水上表演：** 精彩的水上飞人、水上芭蕾等表演，不容错过。",
+              "**夜场派对：** 特定日期开放夜场，DJ音乐、水雾特效，打造清凉狂欢。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1063/400/300",
+          "https://picsum.photos/id/1064/400/300",
+          "https://picsum.photos/id/1065/400/300",
+          "https://picsum.photos/id/1066/400/300",
+          "https://picsum.photos/id/1067/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-567-8901",
+        "email": "waterpark@example.com",
+        "website": "https://www.happyvalley.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即购票",
+    "enrollmentLink": "https://example.com/tickets/ACT005"
+  },
+  {
+    "activityId": 6,
+    "title": "非遗文化节",
+    "carouselImages": [
+      "https://picsum.photos/id/1070/800/400",
+      "https://picsum.photos/id/1071/800/400",
+      "https://picsum.photos/id/1072/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🏛️ 景区介绍",
+        "content": "古城文化街是一条充满历史韵味的老街，汇聚了众多传统手工艺作坊、老字号店铺和特色文化场馆。这里是体验非物质文化遗产、感受传统民俗风情的绝佳之地，漫步其中，仿佛穿越时空，回到了古老的年代。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🎨 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "非遗文化节" },
+          { "label": "活动时间", "value": "2025年7月5日 - 2025年7月7日" },
+          { "label": "活动地点", "value": "古城文化街主街及各非遗展馆" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**非遗技艺展示：** 剪纸、泥塑、糖画、木板年画等多种非遗技艺现场展示与互动。",
+              "**传统戏曲表演：** 京剧、昆曲、越剧等经典剧目轮番上演，感受国粹魅力。",
+              "**非遗美食体验：** 品尝各地特色非遗小吃，如老北京炸酱面、四川担担面等。",
+              "**手作体验坊：** 亲手制作非遗手工艺品，如扎染、编织、陶艺等。",
+              "**专家讲座：** 邀请非遗传承人讲解非遗故事与文化内涵。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1073/400/300",
+          "https://picsum.photos/id/1074/400/300",
+          "https://picsum.photos/id/1075/400/300",
+          "https://picsum.photos/id/1076/400/300",
+          "https://picsum.photos/id/1077/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-678-9012",
+        "email": "heritage@example.com",
+        "website": "https://www.guchenghc.com"
+      }
+    ],
+    "enrollmentAvailable": false,
+    "enrollmentText": "无需报名",
+    "enrollmentLink": ""
+  },
+  {
+    "activityId": 7,
+    "title": "新开园：梦幻花海",
+    "carouselImages": [
+      "https://picsum.photos/id/1080/800/400",
+      "https://picsum.photos/id/1081/800/400",
+      "https://picsum.photos/id/1082/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🌺 景区介绍",
+        "content": "南山公园新开辟的“梦幻花海”占地数千亩，种植了薰衣草、格桑花、向日葵等多种花卉，四季花开不断。这里色彩斑斓，香气弥漫，是摄影爱好者的天堂，也是家庭亲子游、情侣约会的浪漫胜地。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🌸 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "新开园：梦幻花海" },
+          { "label": "活动时间", "value": "2025年6月5日 正式开园" },
+          { "label": "活动地点", "value": "南山公园新花海区域" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**百万花卉盛开：** 欣赏不同季节的绚烂花卉，感受大自然的美丽。",
+              "**花海迷宫：** 在花海中穿梭，体验寻路的乐趣。",
+              "**主题摄影区：** 设立多个创意拍照点，助您拍出唯美大片。",
+              "**花艺体验：** 学习插花艺术，亲手制作专属花束。",
+              "**花卉科普：** 了解各种花卉的名称、习性与花语。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1083/400/300",
+          "https://picsum.photos/id/1084/400/300",
+          "https://picsum.photos/id/1085/400/300",
+          "https://picsum.photos/id/1086/400/300",
+          "https://picsum.photos/id/1087/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-789-0123",
+        "email": "flowersea@example.com",
+        "website": "https://www.nanshanpark.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即购票",
+    "enrollmentLink": "https://example.com/tickets/ACT007"
+  },
+  {
+    "activityId": 8,
+    "title": "VR 探险体验馆",
+    "carouselImages": [
+      "https://picsum.photos/id/1090/800/400",
+      "https://picsum.photos/id/1091/800/400",
+      "https://picsum.photos/id/1092/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🎮 场馆介绍",
+        "content": "智慧科技园内的VR探险体验馆，拥有全球领先的VR设备和多款沉浸式虚拟现实游戏。无论是穿越恐龙时代，还是遨游太空，亦或是参与惊险刺激的枪战，都能带给您前所未有的真实感和刺激体验。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🕹️ 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "VR 探险体验馆" },
+          { "label": "活动时间", "value": "2025年6月8日 起每日开放 10:00-22:00" },
+          { "label": "活动地点", "value": "智慧科技园VR探险体验馆" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**恐龙世界探险：** 身临其境地与史前巨兽互动。",
+              "**太空漫游：** 感受浩瀚宇宙的神秘与壮丽。",
+              "**丧尸围城：** 紧张刺激的射击游戏，考验您的反应速度。",
+              "**极限运动挑战：** 体验高空跳伞、滑雪等极限运动的快感。",
+              "**多人联机对战：** 与好友组队，共同完成任务或展开对抗。",
+              "**VR电影体验：** 观看沉浸式VR电影，感受电影的全新呈现方式。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1093/400/300",
+          "https://picsum.photos/id/1094/400/300",
+          "https://picsum.photos/id/1095/400/300",
+          "https://picsum.photos/id/1096/400/300",
+          "https://picsum.photos/id/1097/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-890-1234",
+        "email": "vr_park@example.com",
+        "website": "https://www.smarttechpark.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即购票",
+    "enrollmentLink": "https://example.com/tickets/ACT008"
+  },
+  {
+    "activityId": 9,
+    "title": "科技艺术展",
+    "carouselImages": [
+      "https://picsum.photos/id/1100/800/400",
+      "https://picsum.photos/id/1101/800/400",
+      "https://picsum.photos/id/1102/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "💡 场馆介绍",
+        "content": "未来科技馆致力于展示科技与艺术的完美融合。本次科技艺术展汇集了国内外顶尖的数字艺术、互动装置和人工智能艺术作品，通过沉浸式的体验，让观众感受科技的魅力，思考艺术的未来。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🖼️ 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "科技艺术展" },
+          { "label": "活动时间", "value": "2025年6月7日 - 2025年7月7日 每日10:00-18:00" },
+          { "label": "活动地点", "value": "未来科技馆主展厅" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**数字光影艺术：** 运用先进投影技术，营造震撼的视觉空间。",
+              "**互动装置艺术：** 观众可参与互动，共同创造艺术作品。",
+              "**AI生成艺术：** 欣赏人工智能创作的绘画、音乐和诗歌。",
+              "**沉浸式体验区：** 佩戴VR/AR设备，进入虚拟艺术世界。",
+              "**艺术讲座与沙龙：** 邀请艺术家和科学家分享创作理念和前沿技术。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1103/400/300",
+          "https://picsum.photos/id/1104/400/300",
+          "https://picsum.photos/id/1105/400/300",
+          "https://picsum.photos/id/1106/400/300",
+          "https://picsum.photos/id/1107/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-901-2345",
+        "email": "techart@example.com",
+        "website": "https://www.futuretechmuseum.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即购票",
+    "enrollmentLink": "https://example.com/tickets/ACT009"
+  },
+  {
+    "activityId": 10,
+    "title": "创意市集",
+    "carouselImages": [
+      "https://picsum.photos/id/1110/800/400",
+      "https://picsum.photos/id/1111/800/400",
+      "https://picsum.photos/id/1112/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🎨 场地介绍",
+        "content": "青年文化广场是城市中心的活力地标，常年举办各类文化活动。本次创意市集汇集了众多独立设计师、手工艺人、插画师和美食创作者，为您带来独一无二的创意产品和文化体验。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🛍️ 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "创意市集" },
+          { "label": "活动时间", "value": "2025年6月11日 - 2025年6月13日 每日14:00-21:00" },
+          { "label": "活动地点", "value": "青年文化广场中央区域" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**原创手作区：** 购买独具匠心的手工饰品、陶瓷、皮具等。",
+              "**文创产品区：** 发现设计师原创文具、插画周边、创意家居。",
+              "**独立出版区：** 翻阅独立刊物、手工书，与作者交流。",
+              "**特色美食区：** 品尝创意饮品、手工烘焙、各地小吃。",
+              "**街头艺术表演：** 欣赏独立音乐、街头魔术、行为艺术等。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1113/400/300",
+          "https://picsum.photos/id/1114/400/300",
+          "https://picsum.photos/id/1115/400/300",
+          "https://picsum.photos/id/1116/400/300",
+          "https://picsum.photos/id/1117/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-012-3456",
+        "email": "market@example.com",
+        "website": "https://www.youthsquare.com"
+      }
+    ],
+    "enrollmentAvailable": false,
+    "enrollmentText": "自由参与",
+    "enrollmentLink": ""
+  },
+  {
+    "activityId": 11,
+    "title": "秘境徒步挑战",
+    "carouselImages": [
+      "https://picsum.photos/id/1120/800/400",
+      "https://picsum.photos/id/1121/800/400",
+      "https://picsum.photos/id/1122/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "⛰️ 景区介绍",
+        "content": "张家界国家森林公园以其独特的石英砂岩峰林地貌而闻名，奇峰异石，云雾缭绕，宛如仙境。本次秘境徒步挑战将带领您深入公园鲜为人知的区域，探索大自然的鬼斧神工，感受徒步的乐趣和挑战自我的成就感。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🥾 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "秘境徒步挑战" },
+          { "label": "活动时间", "value": "2025年6月20日 - 2025年6月24日" },
+          { "label": "活动地点", "value": "张家界国家森林公园指定徒步路线" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**专业领队：** 经验丰富的户外领队全程陪同，确保安全。",
+              "**定制路线：** 穿越峡谷、攀登高峰，领略张家界独特风光。",
+              "**野外生存技能：** 学习基础野外急救、地图判读等技能。",
+              "**团队协作挑战：** 参与团队建设游戏，增进队员间的协作能力。",
+              "**星空露营：** 在自然中搭建帐篷，体验野外露营的乐趣。",
+              "**摄影指导：** 摄影师随队，指导拍摄秘境美景。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1123/400/300",
+          "https://picsum.photos/id/1124/400/300",
+          "https://picsum.photos/id/1125/400/300",
+          "https://picsum.photos/id/1126/400/300",
+          "https://picsum.photos/id/1127/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-234-5678",
+        "email": "trekking@example.com",
+        "website": "https://www.zjjforestpark.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即报名",
+    "enrollmentLink": "https://example.com/enroll/ACT011"
+  },
+  {
+    "activityId": 12,
+    "title": "古镇文化体验",
+    "carouselImages": [
+      "https://picsum.photos/id/1130/800/400",
+      "https://picsum.photos/id/1131/800/400",
+      "https://picsum.photos/id/1132/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🏘️ 景区介绍",
+        "content": "西塘古镇是江南六大古镇之一，以其独特的桥梁、弄堂和临水而居的建筑风格而闻名。这里小桥流水，粉墙黛瓦，充满了浓郁的水乡风情。本次古镇文化体验将带您深入西塘的街巷，感受原汁原味的江南生活。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🎭 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "古镇文化体验" },
+          { "label": "活动时间", "value": "2025年6月25日 - 2025年6月27日" },
+          { "label": "活动地点", "value": "西塘古镇及周边区域" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**摇橹船体验：** 乘坐乌篷船，穿梭于古镇水道，欣赏两岸风光。",
+              "**传统手作坊：** 体验蓝印花布、盘扣制作、米酒酿造等传统手工艺。",
+              "**江南水乡美食：** 品尝古镇特色小吃，如芡实糕、管老太臭豆腐。",
+              "**夜游古镇：** 夜晚的西塘灯火阑珊，别有一番韵味。",
+              "**民俗表演：** 观看地方戏曲、越剧表演，感受江南文化。",
+              "**古宅探秘：** 参观保存完好的明清古宅，了解江南大家族历史。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1133/400/300",
+          "https://picsum.photos/id/1134/400/300",
+          "https://picsum.photos/id/1135/400/300",
+          "https://picsum.photos/id/1136/400/300",
+          "https://picsum.photos/id/1137/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-345-6789",
+        "email": "xitang@example.com",
+        "website": "https://www.xitang.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即报名",
+    "enrollmentLink": "https://example.com/enroll/ACT012"
+  },
+  {
+    "activityId": 13,
+    "title": "自然野趣观察",
+    "carouselImages": [
+      "https://picsum.photos/id/1140/800/400",
+      "https://picsum.photos/id/1141/800/400",
+      "https://picsum.photos/id/1142/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🌳 景区介绍",
+        "content": "湿地公园是城市中的一片绿洲，拥有丰富的湿地生态系统和多样的动植物资源。这里水草丰茂，鸟类众多，是进行自然观察、生态研学和休闲放松的理想场所。公园内设有观鸟平台、生态步道，让您近距离接触大自然。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🦋 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "自然野趣观察" },
+          { "label": "活动时间", "value": "2025年6月19日 - 2025年6月21日" },
+          { "label": "活动地点", "value": "湿地公园核心区域" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**观鸟体验：** 携带望远镜，在专业老师指导下识别各种鸟类。",
+              "**植物识别：** 学习湿地植物知识，了解植物与生态系统的关系。",
+              "**昆虫探秘：** 观察昆虫的生态习性，了解微观世界的奥秘。",
+              "**生态摄影：** 学习拍摄自然风光和野生动植物的技巧。",
+              "**环保讲座：** 了解湿地保护的重要性，参与环保小行动。",
+              "**自然笔记：** 学习制作自然笔记，记录观察所得。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1143/400/300",
+          "https://picsum.photos/id/1144/400/300",
+          "https://picsum.photos/id/1145/400/300",
+          "https://picsum.photos/id/1146/400/300",
+          "https://picsum.photos/id/1147/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-456-7890",
+        "email": "wetland@example.com",
+        "website": "https://www.wetlandpark.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即报名",
+    "enrollmentLink": "https://example.com/enroll/ACT013"
+  },
+  {
+    "activityId": 14,
+    "title": "星空摄影之夜",
+    "carouselImages": [
+      "https://picsum.photos/id/1150/800/400",
+      "https://picsum.photos/id/1151/800/400",
+      "https://picsum.photos/id/1152/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🌌 场馆介绍",
+        "content": "天文台位于远离城市光污染的山区，拥有先进的天文观测设备和广阔的星空视野。这里是观星和星空摄影的绝佳地点，我们将为您提供专业的指导，帮助您捕捉璀璨的星河和独特的星轨。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "📸 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "星空摄影之夜" },
+          { "label": "活动时间", "value": "2025年6月23日 19:00 - 次日05:00" },
+          { "label": "活动地点", "value": "天文台观测基地" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**星空摄影技巧讲解：** 学习相机参数设置、构图、后期处理等技巧。",
+              "**专业望远镜观测：** 通过高倍望远镜观测月球、行星和深空天体。",
+              "**星轨拍摄实践：** 现场指导如何拍摄壮丽的星轨照片。",
+              "**银河拍摄指导：** 学习捕捉清晰美丽的银河。",
+              "**天文知识普及：** 了解星座、天文现象和宇宙奥秘。",
+              "**星空帐篷体验：** 可选择在星空下搭建帐篷，享受独特的夜晚。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1153/400/300",
+          "https://picsum.photos/id/1154/400/300",
+          "https://picsum.photos/id/1155/400/300",
+          "https://picsum.photos/id/1156/400/300",
+          "https://picsum.photos/id/1157/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-567-8901",
+        "email": "astrophotography@example.com",
+        "website": "https://www.observatory.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即报名",
+    "enrollmentLink": "https://example.com/enroll/ACT014"
+  },
+  {
+    "activityId": 15,
+    "title": "摄影比赛",
+    "carouselImages": [
+      "https://picsum.photos/id/1160/800/400",
+      "https://picsum.photos/id/1161/800/400",
+      "https://picsum.photos/id/1162/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "📸 比赛介绍",
+        "content": "望城老街保留了独特的历史风貌和人文气息，是摄影爱好者的创作宝地。本次摄影比赛以“老街故事”为主题，鼓励参赛者用镜头捕捉老街的独特魅力、市井生活和文化传承，展现城市记忆。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🏆 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "摄影比赛" },
+          { "label": "活动时间", "value": "2025年6月30日 - 2025年7月15日 (投稿截止)" },
+          { "label": "活动地点", "value": "望城老街" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**主题：** 老街故事（人文、风光、建筑、美食等均可）。",
+              "**参赛对象：** 摄影爱好者均可参与，不限年龄、设备。",
+              "**奖项设置：** 一等奖、二等奖、三等奖及优秀奖，丰厚奖品等你拿。",
+              "**专家评审：** 邀请知名摄影师、艺术评论家担任评委。",
+              "**作品展览：** 优秀作品将在指定展厅进行公开展示。",
+              "**摄影讲座：** 比赛期间将举办免费摄影讲座，提升拍摄技巧。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1163/400/300",
+          "https://picsum.photos/id/1164/400/300",
+          "https://picsum.photos/id/1165/400/300",
+          "https://picsum.photos/id/1166/400/300",
+          "https://picsum.photos/id/1167/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-678-9012",
+        "email": "photo@example.com",
+        "website": "https://www.wangchenglaojie.com"
+      }
+    ],
+    "enrollmentAvailable": true,
+    "enrollmentText": "立即投稿",
+    "enrollmentLink": "https://example.com/contest/ACT015"
+  },
+  {
+    "activityId": 16,
+    "title": "汉服巡游",
+    "carouselImages": [
+      "https://picsum.photos/id/1170/800/400",
+      "https://picsum.photos/id/1171/800/400",
+      "https://picsum.photos/id/1172/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🎎 场地介绍",
+        "content": "长安古镇是一座拥有千年历史的古镇，古朴的街巷、传统的建筑、悠久的故事，都为汉服巡游提供了绝佳的背景。在这里，你将与众多汉服爱好者一同穿越时空，展现华夏衣冠之美。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "💃 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "汉服巡游" },
+          { "label": "活动时间", "value": "2025年6月12日 14:00 - 17:00" },
+          { "label": "活动地点", "value": "长安古镇主街及重要景点" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**华服盛宴：** 汉服同袍齐聚一堂，展示各式精美汉服。",
+              "**古风市集：** 售卖汉服配饰、古风文创、传统美食等。",
+              "**传统礼仪展示：** 演示传统揖礼、拱手礼等汉家礼仪。",
+              "**琴棋书画体验：** 现场体验古琴演奏、围棋对弈、书法和国画。",
+              "**民乐表演：** 欣赏古筝、笛子、琵琶等传统乐器演奏。",
+              "**摄影打卡：** 专业摄影师跟拍，捕捉汉服风采。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1173/400/300",
+          "https://picsum.photos/id/1174/400/300",
+          "https://picsum.photos/id/1175/400/300",
+          "https://picsum.photos/id/1176/400/300",
+          "https://picsum.photos/id/1177/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-789-0123",
+        "email": "hanfu@example.com",
+        "website": "https://www.changanguzhen.com"
+      }
+    ],
+    "enrollmentAvailable": false,
+    "enrollmentText": "自由参与",
+    "enrollmentLink": ""
+  },
+  {
+    "activityId": 17,
+    "title": "美食节",
+    "carouselImages": [
+      "https://picsum.photos/id/1180/800/400",
+      "https://picsum.photos/id/1181/800/400",
+      "https://picsum.photos/id/1182/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🍽️ 场地介绍",
+        "content": "城市广场是市中心最大的户外活动场地，交通便利，人流量大。本次美食节将汇集来自全国各地的特色小吃、地方名菜、创意甜点和国际美食，为市民和游客带来一场味蕾的狂欢。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "😋 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "美食节" },
+          { "label": "活动时间", "value": "2025年7月1日 - 2025年7月7日 每日10:00-22:00" },
+          { "label": "活动地点", "value": "城市广场中央区域" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**中华名小吃：** 各地经典小吃，如武汉热干面、长沙臭豆腐、天津狗不理包子。",
+              "**国际美食区：** 品尝日式寿司、韩式炸鸡、意大利面、墨西哥卷饼等。",
+              "**创意甜点：** 精致的蛋糕、马卡龙、冰淇淋，满足甜食爱好者。",
+              "**特色饮品：** 各种鲜榨果汁、创意特调饮品、地方特色茶饮。",
+              "**厨艺表演：** 知名大厨现场演示烹饪技巧，分享美食秘诀。",
+              "**美食评选：** 参与投票，选出您最喜爱的美食摊位，赢取奖品。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1183/400/300",
+          "https://picsum.photos/id/1184/400/300",
+          "https://picsum.photos/id/1185/400/300",
+          "https://picsum.photos/id/1186/400/300",
+          "https://picsum.photos/id/1187/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-890-1234",
+        "email": "foodfestival@example.com",
+        "website": "https://www.citysquare.com"
+      }
+    ],
+    "enrollmentAvailable": false,
+    "enrollmentText": "自由参与",
+    "enrollmentLink": ""
+  },
+  {
+    "activityId": 18,
+    "title": "宠物嘉年华",
+    "carouselImages": [
+      "https://picsum.photos/id/1190/800/400",
+      "https://picsum.photos/id/1191/800/400",
+      "https://picsum.photos/id/1192/800/400"
+    ],
+    "sections": [
+      {
+        "type": "text",
+        "title": "🐶 场地介绍",
+        "content": "宠物公园是城市中专为宠物和宠物主设计的开放空间，拥有宽阔的草坪和完善的宠物设施。本次宠物嘉年华将汇集各类宠物用品、宠物服务和趣味活动，为宠物和宠物主提供一个交流互动、欢乐共聚的平台。"
+      },
+      {
+        "type": "rich_text_list",
+        "title": "🐾 活动详情",
+        "items": [
+          { "label": "活动名称", "value": "宠物嘉年华" },
+          { "label": "活动时间", "value": "2025年7月8日 - 2025年7月10日 每日10:00-18:00" },
+          { "label": "活动地点", "value": "宠物公园主活动区" },
+          {
+            "label": "活动内容",
+            "value": [
+              "**宠物萌宠大赛：** 评选最萌、最酷、最有才艺的宠物。",
+              "**宠物用品市集：** 汇集各类宠物食品、玩具、服装、洗护用品等。",
+              "**宠物领养日：** 为流浪小动物寻找温暖的家。",
+              "**宠物医疗咨询：** 现场提供宠物健康咨询和义诊服务。",
+              "**人宠互动游戏：** 趣味障碍赛、飞盘挑战、亲子互动等。",
+              "**宠物美容展示：** 专业宠物美容师现场演示，分享美容技巧。"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "image_gallery",
+        "title": "📸 精彩瞬间",
+        "images": [
+          "https://picsum.photos/id/1193/400/300",
+          "https://picsum.photos/id/1194/400/300",
+          "https://picsum.photos/id/1195/400/300",
+          "https://picsum.photos/id/1196/400/300",
+          "https://picsum.photos/id/1197/400/300"
+        ]
+      },
+      {
+        "type": "contact_info",
+        "title": "📞 联系方式",
+        "phone": "400-901-2345",
+        "email": "petfair@example.com",
+        "website": "https://www.petpark.com"
+      }
+    ],
+    "enrollmentAvailable": false,
+    "enrollmentText": "自由参与",
+    "enrollmentLink": ""
+  }
+]
