@@ -50,7 +50,7 @@
         "title": "📞 联系方式",
         "phone": "400-123-4567",
         "email": "info@example.com",
-        "website": "https://www.example.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -106,7 +106,7 @@
         "title": "📞 联系方式",
         "phone": "400-987-6543",
         "email": "phoenix@example.com",
-        "website": "https://www.phoenixgc.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": false,
@@ -162,7 +162,7 @@
         "title": "📞 联系方式",
         "phone": "400-234-5678",
         "email": "camping@example.com",
-        "website": "https://www.dongtingcamp.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -219,7 +219,7 @@
         "title": "📞 联系方式",
         "phone": "400-345-6789",
         "email": "marathon@example.com",
-        "website": "https://www.citymarathon.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -276,7 +276,7 @@
         "title": "📞 联系方式",
         "phone": "400-567-8901",
         "email": "waterpark@example.com",
-        "website": "https://www.happyvalley.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -332,7 +332,7 @@
         "title": "📞 联系方式",
         "phone": "400-678-9012",
         "email": "heritage@example.com",
-        "website": "https://www.guchenghc.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": false,
@@ -388,7 +388,7 @@
         "title": "📞 联系方式",
         "phone": "400-789-0123",
         "email": "flowersea@example.com",
-        "website": "https://www.nanshanpark.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -445,7 +445,7 @@
         "title": "📞 联系方式",
         "phone": "400-890-1234",
         "email": "vr_park@example.com",
-        "website": "https://www.smarttechpark.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -501,7 +501,7 @@
         "title": "📞 联系方式",
         "phone": "400-901-2345",
         "email": "techart@example.com",
-        "website": "https://www.futuretechmuseum.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -557,7 +557,7 @@
         "title": "📞 联系方式",
         "phone": "400-012-3456",
         "email": "market@example.com",
-        "website": "https://www.youthsquare.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": false,
@@ -614,7 +614,7 @@
         "title": "📞 联系方式",
         "phone": "400-234-5678",
         "email": "trekking@example.com",
-        "website": "https://www.zjjforestpark.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -671,7 +671,7 @@
         "title": "📞 联系方式",
         "phone": "400-345-6789",
         "email": "xitang@example.com",
-        "website": "https://www.xitang.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -728,7 +728,7 @@
         "title": "📞 联系方式",
         "phone": "400-456-7890",
         "email": "wetland@example.com",
-        "website": "https://www.wetlandpark.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -785,7 +785,7 @@
         "title": "📞 联系方式",
         "phone": "400-567-8901",
         "email": "astrophotography@example.com",
-        "website": "https://www.observatory.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -842,7 +842,7 @@
         "title": "📞 联系方式",
         "phone": "400-678-9012",
         "email": "photo@example.com",
-        "website": "https://www.wangchenglaojie.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": true,
@@ -899,7 +899,7 @@
         "title": "📞 联系方式",
         "phone": "400-789-0123",
         "email": "hanfu@example.com",
-        "website": "https://www.changanguzhen.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": false,
@@ -956,7 +956,7 @@
         "title": "📞 联系方式",
         "phone": "400-890-1234",
         "email": "foodfestival@example.com",
-        "website": "https://www.citysquare.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": false,
@@ -1013,7 +1013,7 @@
         "title": "📞 联系方式",
         "phone": "400-901-2345",
         "email": "petfair@example.com",
-        "website": "https://www.petpark.com"
+        "website": "http://www.zgmds.net"
       }
     ],
     "enrollmentAvailable": false,
