@@ -1,4 +1,4 @@
-import { Prompt } from "@kit.ArkUI";
+import { Prompt, router } from "@kit.ArkUI";
 import { resourceManager } from "@kit.LocalizationKit";
 
 interface FeatureItem {
@@ -12,7 +12,7 @@ export struct ProfilePage {
   @State userAvatar: Resource = $r('app.string.AvatarUrl');
   @State userBio: string = '热爱探索世界，记录美好生活';
   private featureList: FeatureItem[] = [
-    { icon: '🗺️', name: '我的行程' },
+    { icon: '🗺️', name: '报名情况' },
     { icon: '📸', name: '我的相册' },
     { icon: '❤️', name: '我的收藏' },
     { icon: '📝', name: '我的攻略' },
@@ -110,6 +110,9 @@ struct functionEntry {
     })
     .justifyContent(FlexAlign.Center)
     .onClick(() => {
+      router.pushUrl({
+        url: "pages/signup_data/SignUpData"
+      })
       Prompt.showToast({
         message: `点击了：${this.item.name}`
       })
